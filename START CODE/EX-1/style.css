@@ -1,0 +1,44 @@
+body {
+    background: grey;
+    font-family: sans-serif;
+}
+
+.Box{
+    background-color: white;
+    margin-top: 30px;
+    padding: 20px;
+    margin-left:100px;
+    margin-right:100px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.Box #btn1{
+    border-radius: 30px;
+    background-color: pink;
+    color: white;
+    border-style: none;
+    padding: 10px;
+}
+
+.Box #btn2{
+    border-radius: 30px;
+    background-color: hotpink;
+    color: white;
+    border-style: none;
+    padding: 10px;
+}
+
+.Box #btn3{
+    border-radius: 30px;
+    background-color: palevioletred;
+    color: white;
+    border-style: none;
+    padding: 10px;
+}
+
+#btn1, #btn2, #btn3:hover{
+    cursor: pointer;
+}
+
+
